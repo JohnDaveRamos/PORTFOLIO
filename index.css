@@ -1,0 +1,65 @@
+html,body{
+    height: 100%;
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1 0 auto;
+}
+
+header{
+    background: no-repeat center center;
+    background-size: color;
+    color: white;
+}
+
+.color-overlay{
+    background-color: rgba(0,0,0,0);
+    min-height: 60vh;
+}
+
+@media (max-width: 768px){
+    .color-overlay{
+        mid-height: 60vh;
+    }
+}
+
+.singleCol{
+    max-width: 750px;
+}
+
+.btn-outline-dark{
+    background-color: darkolivegreen;
+}
+
+.btn-outline-dark:hover{
+    background-color: darkseagreen;
+}
+
+footer{
+    background-color: grey;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: black;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 0px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
